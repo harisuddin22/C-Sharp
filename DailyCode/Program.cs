@@ -6,17 +6,19 @@ namespace DailyCode
     {
         static void Main(string[] args)
         {
-            // Array of strings
-            string[] languages = { "C#", "JavaScript", "React", "Java", "HTML" };
-
-            Console.WriteLine("💡 Programming Languages I Love:");
-
-            // Simple for loop
-            for (int i = 0; i < languages.Length; i++)
+            string[] fruits = {"Mango", "Banana", "Guava", "Falsai", "Apple"};
+            if (false)
             {
-                Console.WriteLine($"{i + 1}. {languages[i]}");
-            }
+                for (int i = 0; i < fruits.Length; i++)
+                {
+                    Console.WriteLine(fruits[i]);
+                }
 
+            }else
+            {
+                Console.WriteLine("No Fruits Found");
+            }
+  
+            }
         }
     }
-}
