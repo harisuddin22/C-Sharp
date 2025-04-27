@@ -6,19 +6,36 @@ namespace DailyCode
     {
         static void Main(string[] args)
         {
-            string[] fruits = {"Mango", "Banana", "Guava", "Falsai", "Apple"};
-            if (false)
-            {
-                for (int i = 0; i < fruits.Length; i++)
-                {
-                    Console.WriteLine(fruits[i]);
-                }
+            string fruitsNum = "1";
 
-            }else
             {
-                Console.WriteLine("No Fruits Found");
-            }
-  
+                switch (fruitsNum)
+                {
+                    case "1":
+                        Console.WriteLine("Mango");
+                        break;
+
+                    case "2":
+                        Console.WriteLine("Banana");
+                        break;
+
+                    case "3":
+                        Console.WriteLine("Guava");
+                        break;
+
+                    case "4":
+                        Console.WriteLine("Falsai");
+                        break;
+
+                    case "5":
+                        Console.WriteLine("Apple");
+                        break;
+
+                    default:
+                        Console.WriteLine("No Fruit Found");
+                        break;
+                }
             }
         }
     }
+}
